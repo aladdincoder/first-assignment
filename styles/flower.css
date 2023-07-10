@@ -9,12 +9,34 @@ body {
 }
 
 .banner {
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
-    align-items:center;
+    align-items: center;
+    justify-content: space-between;
 }
-.banner .profile-pic{
-    width: 500px;
+
+.banner-content {
+    margin: 197px 97px 147px 240px;
+}
+
+.banner .profile-pic {
+    width: 635px;
+    height: 70vh;
+    flex-shrink: 0;
+    margin: 50px 240px 0px 97px;
+}
+
+.banner-title {
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.banner-des {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
 }
 
 /* common button style */
